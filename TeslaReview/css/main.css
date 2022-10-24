@@ -1,0 +1,270 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.background-image_main{
+  background-image: url("../img/tesla_main_back1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+.telsa_logo{
+  position: absolute;
+  width: 300px;
+  height: 30.11px;
+  left: calc(50% - 300px/2);
+  top: calc(50% - 30.11px/2 - 387.94px);
+  background: url("../img/teslalogo3.svg");
+
+}
+
+.text_main{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 2px ;
+  position: relative;
+  height: 44px;
+  top: 20vh;
+
+  font-family: Gotham, sans-serif;
+  font-size: 36px;
+  letter-spacing: -0.007em;
+}
+
+.text_main a {
+  text-decoration: none;
+  color: #a2b2cc
+}
+
+.background-image_others{
+  background-image: url("../img/back_others.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+
+}
+
+header {
+  top: 1vh;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+header .navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+header .navigation li {
+  List-style: none;
+  margin: 0 10px;
+}
+
+header .navigation li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: Gotham, sans-serif;
+}
+
+header .navigation li a:hover {
+  color: #a2b2cc;
+
+}
+
+.article {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  top: 20vh;
+  position: relative;
+  color: white;
+  text-align: center;
+
+  font-family: Gotham, sans-serif;
+  font-size: 17px;
+  line-height: 44px;
+  letter-spacing: -0.007em;
+}
+
+.article a {
+  text-decoration: none;
+  color: #a2b2cc
+}
+
+main {
+  display: flex;
+  padding: 23px;
+  width: calc(100vw/2.5);
+  top: 23vh;
+  position: relative;
+  left: 28.5vw;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+main .text {
+  display: block;
+  box-sizing: border-box;
+  font-family: Gotham, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  margin: 20px;
+}
+
+main .text a{
+  margin-left: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+main .text a:hover{
+  color: #a2b2cc;
+}
+
+main .text ul {
+  margin-left: 20px;
+}
+
+main .text h2 {
+  text-align: center;
+}
+
+main .text img {
+  width: 100%;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+
+h1{
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+h3{
+  font-size: 0.87rem;
+}
+
+main .text ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+main .text h3 {
+  text-align: center;
+}
+main .text h3 a {
+  color: #a2b2cc;
+
+}
+
+iframe {
+  display: block;
+  box-sizing: border-box;
+  width: 70%;
+  left: 5vw;
+  position: relative;
+}
+
+footer{
+  box-sizing: border-box;
+  display: block;
+  margin-top: 250px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  position: relative;
+  height: 5vh;
+
+}
+
+.footer_text {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Gotham, sans-serif;
+  color: white;
+}
+
+.footer_text p a {
+  text-decoration: none;
+  color: white;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #a2b2cc;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  main{
+    width: auto;
+    left: 0;
+    border-radius: 0;
+  }
+
+
+  .telsa_logo {
+    visibility: hidden;
+  }
+
+  iframe{
+    width: 100%;
+    left: 0;
+  }
+
+  main .text {
+    margin: 0;
+  }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+  .background-image_main {
+    position: fixed;
+    left: -75%;
+  }
+
+}
+
+
+

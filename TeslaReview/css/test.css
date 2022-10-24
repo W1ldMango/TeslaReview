@@ -1,0 +1,258 @@
+
+body,html{
+  height: 100%;
+  margin: 0;
+}
+
+.tesla_logo_main{
+  /*background-image: url("/img/tesla_logo_white.png");*/
+  height: 30px;
+  block-size: 24px;
+  box-sizing: border-box;
+  display: flex;
+  inline-size: 120px;
+  max-inline-size: 100%;
+  min-block-size: 24px;
+  min-inline-size: 24px;
+  padding: 0px 8px 0px 16px;
+  position: absolute;
+  top: 2vh;
+  left: 42.5vw;
+
+}
+
+.text_main{
+  font-family: Gotham, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -0.7px;
+  line-height: 36px;
+  color: #a2b2cc;
+  position: absolute;
+  top: 65vh;
+  left: 43vw;
+}
+
+.text_main a{
+  color: darkgrey;
+  text-decoration: none;
+}
+
+.text_others a{
+  color: black;
+  text-decoration: none;
+}
+
+.article a{
+  color: darkgrey;
+  text-decoration: none;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 2rem;
+
+}
+
+h2{
+  font-size: 1.4rem;
+}
+
+h3{
+  font-size: 0.87rem;
+}
+
+h3 a{
+  color: darkgrey;
+  text-decoration: none;
+}
+
+.bg {
+  position: relative;
+  /*top: -50%;*/
+  /*left: -50%;*/
+  /*width: 200%;*/
+  /*height: 200%;*/
+}
+.bg img {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  /*top: 0;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  /*bottom: 0;*/
+  margin: auto;
+  /*min-width: 50%;*/
+  /*min-height: 50%;*/
+}
+
+
+.bg_others{
+  background-color: #222222;
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+.text_others{
+  box-sizing: border-box;
+  display: block;
+  padding: 23px;
+  position: relative;
+  font-family: Gotham, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 29px;
+  width: 900px;
+  /*-webkit-text-size-adjust: 100%;*/
+  top: 10vh;
+  left: 26vw;
+  text-align: left;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+
+.text_others h2 {
+  text-align: center;
+}
+
+.text_others img {
+  display: block;
+  width: 44.5vw;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.header{
+  width: 100%;
+  height: 6vh;
+  display: block;
+  /*background-color: #222222;*/
+  /*background-color: red;*/
+}
+
+.inner_header{
+  width: 50%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  /*background-color: yellow;*/
+}
+.logo_container{
+  /*height: 100%;*/
+  display: block;
+  /*float: left;*/
+  width: 20vw;
+  height: 5vh;
+  top: 1vh;
+  background-color: black;
+  color: black;
+}
+
+header nav{
+  /*float: right;*/
+  /*height: 100%;*/
+  top: 2vh;
+  position: absolute;
+  left: 38.5vw;
+}
+
+header nav li{
+  display: table;
+  height: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+header nav span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header nav a{
+  color: white;
+  font-family: Gotham, sans-serif;
+
+
+}
+
+.article h1 {
+  display: block;
+  top: 8vh;
+  left: 23vw;
+  width: 1000px;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: Gotham, sans-serif;
+  padding: 10px;
+  margin: 5px;
+}
+
+.text_others ul{
+  list-style-type: initial;
+}
+
+iframe {
+  display: block;
+  left: 7vw;
+  position: relative;
+
+}
+
+.text_others h3{
+  text-align: center;
+}
+
+footer{
+  box-sizing: border-box;
+  display: block;
+  margin: 282px 0 0;
+  padding: 0 0 14px;
+  position: relative;
+  height: 5vh;
+}
+
+.footer_text {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Gotham, sans-serif;
+  color: white;
+
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #222222;
+}
+
+

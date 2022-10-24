@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a7c614a3-eb44-4619-a2ca-240a4a5bfdad" name="stuwrk.nti.tul.cz">
+        <fileTransfer rootFolder="/home/v/vladimir.stankov/public_html/sp" accessType="SFTP" host="stuwrk.nti.tul.cz" port="22" sshConfigId="73f4043b-0855-4825-b8d2-228cb6d21e1e" sshConfig="vladimir.stankov@stuwrk.nti.tul.cz">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 768px) {
+  .text_others {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    right: 5vw;
+    left: 0;
+  }
+  body {
+    background-color: red;
+  }
+
+  .bg_others {
+    background-color: white;
+  }
+
+
+  .text_others img {
+    display: flex;
+    position: center;
+  }
+
+  .inner_header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+  }
+}

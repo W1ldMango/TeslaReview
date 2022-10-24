@@ -1,0 +1,21 @@
+.table-row {
+  overflow-x: scroll;
+}
+table {
+  background-color: #f6f6f6;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 20px;
+}
+
+th {
+  background: #24262b;
+  color: white;
+  border-radius: 0;
+  top: 0;
+  padding: 10px;
+}
